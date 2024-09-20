@@ -1,1 +1,1 @@
-# Bridal-Dress-Rental-Website
+# Bridal Dress Rental Website
