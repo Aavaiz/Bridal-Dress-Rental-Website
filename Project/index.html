@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridal Dresses</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="text-black p-4 sticky top-0 z-50 ">
+    <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">BIBVAIZ BOUTIQUE</h1>
+        <div class="hidden md:flex space-x-4">
+            <a href="#home" class="hover:font-bold">Home</a>
+            <a href="#about" class="hover:font-bold">About</a>
+            <a href="#dresses" class="hover:font-bold">All Dresses</a>
+            <a href="#rent" class="hover:font-bold">Rent</a>
+            <a href="#cart" class="hover:font-bold">Cart</a>
+            <a href="#contact" class="hover:font-bold">Contact Us</a>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+            <button id="menu-toggle" class="text-xl">&#9776;</button>
+        </div>
+    </div>
+</nav>
+
+<!-- Mobile Menu Items -->
+<div id="mobile-menu" class="hidden flexed flex-col items-center space-y-4 p-4 ">
+    <a href="#home" class="hover:font-bold">Home</a>
+    <a href="#about" class="hover:font-bold">About</a>
+    <a href="#dresses" class="hover:font-bold">All Dresses</a>
+    <a href="#rent" class="hover:font-bold">Rent</a>
+    <a href="#cart" class="hover:font-bold">Cart</a>
+    <a href="#contact" class="hover:font-bold">Contact Us</a>
+</div>
+
+
+
+
+<!-- Home Section -->
+<section id="home" class="flex flex-col items-start justify-center h-screen bg-black bg-opacity-50 px-10 text-center md:text-left">
+    <h6 class="text-2xl text-white">Elegance Bride</h6>
+    <h1 class="text-4xl md:text-5xl text-white font-bold mt-2">Graceful Bridal Boutique</h1>
+    <p class="text-white mt-4 max-w-xl">
+        Welcome to Graceful Bridal Boutique, where timeless elegance meets modern sophistication. Discover the perfect gown to make your special day truly unforgettable.
+    </p>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="bg-gray-100 py-16 px-6 md:px-10">
+    <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center">
+        <!-- Image Section -->
+        <div class="lg:w-1/2 mb-8 lg:mb-0">
+            <img src="dress.jpg" alt="Bridal Dress Collection" class="w-full h-auto rounded-lg">
+        </div>
+        <!-- Text Section -->
+        <div class="lg:w-1/2 lg:pl-12 bg-white bg-opacity-75 p-6 rounded-lg">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">About Us</h2>
+            <h3 class="text-2xl font-semibold mb-4 text-gray-700">Elegance in Every Stitch</h3>
+            <p class="text-lg text-gray-600 mb-8">
+                Welcome to Graceful Bridal Boutique, where every dress is a work of art designed to make your special day truly unforgettable. Our curated collection features a harmonious blend of classic elegance and modern sophistication.
+            </p>
+            <a href="#contact" class="inline-block bg-black text-white py-2 px-6 rounded-full text-lg font-semibold hover:bg-gray-600">Contact Us</a>
+        </div>
+    </div>
+</section>
+
+<!-- All Dresses Section -->
+<section id="dresses" class=" h-screen py-20 px-6 md:px-10 bg-gray-100 bg-cover bg-center" style="background-image: url('about.jpeg');">
+    <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-10 text-black">Our Bridal Dresses Collection</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <!-- Dress 1 -->
+            <div class="bg-white p-5 rounded-lg">
+                <img src="img1.jpeg" alt="Dress 1" class="w-full h-100 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-bold mb-2">Luxurious Fabric</h3>
+            </div>
+            <!-- Dress 2 -->
+            <div class="bg-white p-5 rounded-lg">
+                <img src="elegent.jpeg" alt="Dress 2" class="w-full h-100 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-bold mb-2">Elegant Bridal Maxi</h3>
+            </div>
+            <!-- Dress 3 -->
+            <div class="bg-white p-5 rounded-lg">
+                <img src="back1.jpeg" alt="Dress 3" class="w-full h-100 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-bold mb-2">Graceful Elegance</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Rent Section -->
+<section id="rent" class="py-20 px-6 md:px-10 bg-gray-100 bg-cover bg-center" style="background-image: url('about.jpeg');">
+    <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-10">Available Dresses for Rent </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+            <!-- Rent Dress 1 -->
+            <div class="bg-gray-100 p-5 rounded-lg">
+                <img src="rent2.jpeg" alt="Dress 1" class="w-full h-100 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-bold mb-2">Bridal Dress</h3>
+                <p class="text-lg text-gray-700">Rent: 10,000 per day</p>
+            </div>
+            <!-- Rent Dress 2 -->
+            <div class="bg-gray-100 p-5 rounded-lg">
+                <img src="rent1.jpeg" alt="Dress 2" class="w-full h-100 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-bold mb-2">Graceful Nikah Dress</h3>
+                <p class="text-lg text-gray-700">Rent: 10,000 per day</p>
+            </div>
+            <!-- Rent Dress 3 -->
+            <div class="bg-gray-100 p-5 rounded-lg">
+                <img src="rent3.jpeg" alt="Dress 3" class="w-full h-100 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-bold mb-2">Elegent Dress</h3>
+                <p class="text-lg text-gray-700">Rent: 10,000 per day</p>
+            </div>
+            <!-- Rent Dress 4 -->
+            <div class="bg-gray-100 p-5 rounded-lg">
+                <img src="rent5.jpeg" alt="Dress 4" class="w-full h-100 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-bold mb-2">Classic Beautiful Frock</h3>
+                <p class="text-lg text-gray-700">Rent: 10,000 per day</p>
+            </div>
+            <!-- Rent Dress 5 -->
+            <div class="bg-gray-100 p-5 rounded-lg">
+                <img src="rent4.jpeg" alt="Dress 5" class="w-full h-100 object-cover rounded-lg mb-4">
+                <h3 class="text-2xl font-bold mb-2">Stunning White Frock</h3>
+                <p class="text-lg text-gray-700">Rent: 10,000 per day</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Cart Section -->
+<section id="cart" class="h-screen bg-cover bg-center" style="background-image: url('cart.jpeg');">
+    <div class="container mx-auto flex items-center justify-center h-full">
+        <div class="text-center">
+            <h2 class="text-4xl font-bold mb-10 text-black">Your Cart</h2>
+            <div class="text-lg mb-4">
+                <a href="#dresses" class="bg-black text-white py-2 px-6 rounded-full text-lg font-semibold hover:bg-gray-600">Continue Shopping</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Us Section -->
+<section id="contact" class="py-40 px-6 bg-gray-100 bg-cover bg-center" style="background-image: url('cntct.jpeg');">
+    <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-6">Contact Us</h2>
+        <p class="text-lg text-black mb-6">Have any questions? Reach out to us!</p>
+        <form class="max-w-md mx-auto">
+            <div class="mb-4">
+                <input type="text" class="w-full p-3 border border-gray-300 rounded-lg" placeholder="Your Name">
+            </div>
+            <div class="mb-4">
+                <input type="email" class="w-full p-3 border border-gray-300 rounded-lg" placeholder="Your Email">
+            </div>
+            <div class="mb-4">
+                <textarea class="w-full p-3 border border-gray-300 rounded-lg" rows="5" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="bg-gray-800 text-white py-2 px-4 rounded-lg">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-4 text-center">
+    <p>© 2024 Bridal Dress Rental. All rights reserved.</p>
+</footer>
+
+
+<!--script for navbar-->
+<script>
+    // Toggle mobile menu
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+        const menu = document.getElementById('mobile-menu');
+        menu.classList.toggle('hidden');
+    });
+</script>
+
+</body>
+</html>
